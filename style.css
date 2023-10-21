@@ -26,13 +26,19 @@ body {
 }
 
 .div-3,
-.div-5,
-.div-7,
+.subtitle,
+.work_experience,
 .div-9 {
     color: #fff;
-    font-family: Judson, sans-serif;
     font-size: 22px;
     font-weight: 400;
+}
+
+.work_experience{
+    align-self: start;
+    white-space: nowrap;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .div-3 {
@@ -63,31 +69,31 @@ body {
     }
 }
 
-.div-5 {
+.subtitle {
     align-self: start;
     white-space: nowrap;
+    margin-top: 5px;
 }
 
 @media (max-width: 991px) {
-    .div-5 {
+    .subtitle {
         white-space: normal;
     }
 }
 
-.div-6,
+.about-me,
 .work-heading {
     color: #d7d5d5;
-    font-family: Judson, sans-serif;
+
     font-size: 15px;
     font-weight: 400;
     align-self: start;
-    margin-top: 22px;
+    margin-top: 2px;
 }
 
 .text-wrapper, .work-heading {
     position: relative;
     align-self: stretch;
-    font-family: "Judson-Regular", Helvetica;
     font-weight: 400;
     color: #ffffff;
     font-size: 22px;
