@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 
 .div {
     background-color: #000;
@@ -5,35 +8,46 @@
     flex-direction: column;
     padding: 0 20px;
 }
+
 .div-2 {
     align-self: center;
     display: flex;
     margin-top: 151px;
-    width: 312px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 312px;
     flex-grow: 1;
     flex-direction: column;
 }
+
 @media (max-width: 991px) {
     .div-2 {
-    margin-top: 40px;
+        margin-top: 40px;
     }
 }
-.div-3 {
+
+.div-3,
+.div-5,
+.div-7,
+.div-9 {
     color: #fff;
     font-family: Judson, sans-serif;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 400;
+}
+
+.div-3 {
     align-self: end;
     margin-right: 20px;
-    text-wrap: nowrap;
+    white-space: nowrap;
 }
+
 @media (max-width: 991px) {
     .div-3 {
-    margin-right: 10px;
-    text-wrap: initial;
+        margin-right: 10px;
+        white-space: normal;
     }
 }
+
 .div-4 {
     align-self: end;
     display: flex;
@@ -42,25 +56,26 @@
     flex-grow: 1;
     flex-direction: column;
 }
+
 @media (max-width: 991px) {
     .div-4 {
-    margin-top: 40px;
+        margin-top: 40px;
     }
 }
+
 .div-5 {
-    color: #fff;
-    font-family: Judson, sans-serif;
-    font-size: 22px;
-    font-weight: 400;
     align-self: start;
-    text-wrap: nowrap;
+    white-space: nowrap;
 }
+
 @media (max-width: 991px) {
     .div-5 {
-    text-wrap: initial;
+        white-space: normal;
     }
 }
-.div-6 {
+
+.div-6,
+.work-heading {
     color: #d7d5d5;
     font-family: Judson, sans-serif;
     font-size: 15px;
@@ -68,225 +83,20 @@
     align-self: start;
     margin-top: 22px;
 }
-.div-7 {
-    color: #fff;
-    font-family: Judson, sans-serif;
-    font-size: 22px;
+
+.text-wrapper, .work-heading {
+    position: relative;
+    align-self: stretch;
+    font-family: "Judson-Regular", Helvetica;
     font-weight: 400;
-    margin-top: 75px;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
 }
-@media (max-width: 991px) {
-    .div-7 {
-    margin-top: 40px;
-    }
-}
-.div-8 {
-    align-items: center;
-    align-self: start;
+
+.results-container, .results-container-2 {
     display: flex;
-    margin-top: 32px;
-    width: 100%;
     flex-direction: column;
-}
-.div-9 {
-    align-self: stretch;
-    color: #fff;
-    text-align: center;
-    font-family: Judson, sans-serif;
-    font-size: 22px;
-    font-weight: 400;
-    text-wrap: nowrap;
-}
-@media (max-width: 991px) {
-    .div-9 {
-    text-wrap: initial;
-    }
-}
-.div-10 {
-    align-self: stretch;
-    color: #fff;
-    text-align: center;
-    font-family: Judson, sans-serif;
-    font-size: 22px;
-    font-weight: 400;
-    margin-top: 45px;
-    text-wrap: nowrap;
-}
-@media (max-width: 991px) {
-    .div-10 {
-    margin-top: 40px;
-    text-wrap: initial;
-    }
-}
-.div-11 {
-    align-self: stretch;
-    color: #fff;
-    text-align: center;
-    font-family: Judson, sans-serif;
-    font-size: 22px;
-    font-weight: 400;
-    margin-top: 45px;
-    text-wrap: nowrap;
-}
-@media (max-width: 991px) {
-    .div-11 {
-    margin-top: 40px;
-    text-wrap: initial;
-    }
-}
-.div-12 {
-    align-self: stretch;
-    color: #fff;
-    text-align: center;
-    font-family: Judson, sans-serif;
-    font-size: 22px;
-    font-weight: 400;
-    margin-top: 45px;
-    text-wrap: nowrap;
-}
-@media (max-width: 991px) {
-    .div-12 {
-    margin-top: 40px;
-    text-wrap: initial;
-    }
-}
-.div-13 {
-    align-self: stretch;
-    color: #fff;
-    text-align: center;
-    font-family: Judson, sans-serif;
-    font-size: 22px;
-    font-weight: 400;
-    margin-top: 45px;
-    text-wrap: nowrap;
-}
-@media (max-width: 991px) {
-    .div-13 {
-    margin-top: 40px;
-    text-wrap: initial;
-    }
-}
-.div-14 {
-    align-self: stretch;
-    color: #fff;
-    text-align: center;
-    font-family: Judson, sans-serif;
-    font-size: 22px;
-    font-weight: 400;
-    margin-top: 45px;
-    text-wrap: nowrap;
-}
-@media (max-width: 991px) {
-    .div-14 {
-    margin-top: 40px;
-    text-wrap: initial;
-    }
-}
-.div-15 {
-    align-items: center;
-    align-self: start;
-    display: flex;
-    margin-top: 51px;
-    width: 100%;
-    flex-grow: 1;
-    flex-direction: column;
-}
-@media (max-width: 991px) {
-    .div-15 {
-    margin-top: 40px;
-    }
-}
-.div-16 {
-    align-self: stretch;
-    color: #fff;
-    text-align: center;
-    font-family: Judson, sans-serif;
-    font-size: 22px;
-    font-weight: 400;
-    text-wrap: nowrap;
-}
-@media (max-width: 991px) {
-    .div-16 {
-    text-wrap: initial;
-    }
-}
-.div-17 {
-    align-self: stretch;
-    color: #fff;
-    text-align: center;
-    font-family: Judson, sans-serif;
-    font-size: 22px;
-    font-weight: 400;
-    margin-top: 45px;
-    text-wrap: nowrap;
-}
-@media (max-width: 991px) {
-    .div-17 {
-    margin-top: 40px;
-    text-wrap: initial;
-    }
-}
-.div-18 {
-    align-self: stretch;
-    color: #fff;
-    text-align: center;
-    font-family: Judson, sans-serif;
-    font-size: 22px;
-    font-weight: 400;
-    margin-top: 45px;
-    text-wrap: nowrap;
-}
-@media (max-width: 991px) {
-    .div-18 {
-    margin-top: 40px;
-    text-wrap: initial;
-    }
-}
-.div-19 {
-    align-self: stretch;
-    color: #fff;
-    text-align: center;
-    font-family: Judson, sans-serif;
-    font-size: 22px;
-    font-weight: 400;
-    margin-top: 45px;
-    text-wrap: nowrap;
-}
-@media (max-width: 991px) {
-    .div-19 {
-    margin-top: 40px;
-    text-wrap: initial;
-    }
-}
-.div-20 {
-    align-self: stretch;
-    color: #fff;
-    text-align: center;
-    font-family: Judson, sans-serif;
-    font-size: 22px;
-    font-weight: 400;
-    margin-top: 45px;
-    text-wrap: nowrap;
-}
-@media (max-width: 991px) {
-    .div-20 {
-    margin-top: 40px;
-    text-wrap: initial;
-    }
-}
-.div-21 {
-    align-self: stretch;
-    color: #fff;
-    text-align: center;
-    font-family: Judson, sans-serif;
-    font-size: 22px;
-    font-weight: 400;
-    margin-top: 45px;
-    text-wrap: nowrap;
-}
-@media (max-width: 991px) {
-    .div-21 {
-    margin-top: 40px;
-    text-wrap: initial;
-    }
 }
