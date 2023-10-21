@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-judson: Judson;
+  
+    /* font sizes */
+    --font-size-3xl: 22px;
+  
+    /* Colors */
+    --color-white: #fff;
+  }  
