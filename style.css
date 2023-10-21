@@ -219,7 +219,7 @@ body {
     max-width: 100%;
     }
 }
-.div-38 {
+.proj-title {
     color: #fff;
     
     font-size: 24px;
@@ -227,7 +227,7 @@ body {
     text-decoration-line: underline;
     align-self: start;
 }
-.div-39 {
+.proj-desc {
     color: #fff;
     
     font-size: 18px;
@@ -236,7 +236,7 @@ body {
     margin-top: 15px;
 }
 @media (max-width: 991px) {
-    .div-39 {
+    .proj-desc {
     max-width: 100%;
     }
 }
@@ -252,27 +252,6 @@ body {
     margin: 40px 5px 0 0;
     }
 }
-.div-41 {
-    color: #fff;
-    
-    font-size: 24px;
-    font-weight: 400;
-    text-decoration-line: underline;
-    align-self: start;
-}
-.div-42 {
-    color: #fff;
-    
-    font-size: 18px;
-    font-weight: 300;
-    align-self: start;
-    margin-top: 18px;
-}
-@media (max-width: 991px) {
-    .div-42 {
-    max-width: 100%;
-    }
-}
 .div-43 {
     align-self: stretch;
     display: flex;
@@ -284,27 +263,6 @@ body {
     .div-43 {
     max-width: 100%;
     margin: 40px 5px 0 0;
-    }
-}
-.div-44 {
-    color: #fff;
-    
-    font-size: 24px;
-    font-weight: 400;
-    text-decoration-line: underline;
-    align-self: start;
-}
-.div-45 {
-    color: #fff;
-    
-    font-size: 18px;
-    font-weight: 300;
-    align-self: start;
-    margin-top: 18px;
-}
-@media (max-width: 991px) {
-    .div-45 {
-    max-width: 100%;
     }
 }
 .div-46 {
@@ -331,23 +289,9 @@ body {
     flex-grow: 1;
     flex-direction: column;
 }
-.div-48 {
+.contact {
     color: #fff;
     
     font-size: 20px;
     font-weight: 400;
-}
-.div-49 {
-    color: #fff;
-    
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: 20px;
-}
-.div-50 {
-    color: #fff;
-    
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: 20px;
 }
