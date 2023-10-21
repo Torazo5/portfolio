@@ -17,7 +17,7 @@ a:hover {
 }
 
 .empty-space {
-    height: 50px; /* Adds 50 pixels of height, creating empty space */
+    height: 200px; /* Adds 50 pixels of height, creating empty space */
     background-color: #000; /* Sets the background color to black */
 }
 
@@ -310,7 +310,7 @@ a:hover {
 }
 .contact {
     color: #fff;
-    
     font-size: 20px;
     font-weight: 400;
+    margin-top: 15px;
 }
