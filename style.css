@@ -161,8 +161,8 @@ body {
     align-self: start;
     max-width: 285px;
 }
-.div-20 {
-    color: #fff;
+.school-description {
+    color: #d3d3d3;
     
     font-size: 18px;
     font-weight: 300;
@@ -170,7 +170,7 @@ body {
     margin-top: 6px;
     max-width: 270px;
 }
-.div-21 {
+.school-name {
     color: #fff;
     
     font-size: 24px;
@@ -178,152 +178,9 @@ body {
     margin-top: 57px;
 }
 @media (max-width: 991px) {
-    .div-21 {
+    .school-name {
     margin-top: 40px;
     }
-}
-.div-22 {
-    color: #fff;
-    
-    font-size: 18px;
-    font-weight: 300;
-    align-self: start;
-    margin-top: 18px;
-    max-width: 270px;
-}
-.div-23 {
-    color: #fff;
-    
-    font-size: 24px;
-    font-weight: 500;
-    align-self: start;
-    margin-top: 54px;
-    max-width: 267px;
-}
-@media (max-width: 991px) {
-    .div-23 {
-    margin-top: 40px;
-    }
-}
-.div-24 {
-    color: #fff;
-    
-    font-size: 18px;
-    font-weight: 300;
-    align-self: start;
-    margin-top: 10px;
-    max-width: 270px;
-}
-.div-25 {
-    color: #fff;
-    
-    font-size: 24px;
-    font-weight: 500;
-    align-self: start;
-    margin-top: 53px;
-}
-@media (max-width: 991px) {
-    .div-25 {
-    margin-top: 40px;
-    }
-}
-.div-26 {
-    color: #fff;
-    
-    font-size: 18px;
-    font-weight: 300;
-    align-self: start;
-    margin-top: 20px;
-    max-width: 270px;
-}
-.div-27 {
-    color: #fff;
-    
-    font-size: 24px;
-    font-weight: 500;
-    align-self: start;
-    margin-top: 53px;
-    max-width: 285px;
-}
-@media (max-width: 991px) {
-    .div-27 {
-    margin-top: 40px;
-    }
-}
-.div-28 {
-    color: #fff;
-    
-    font-size: 18px;
-    font-weight: 300;
-    align-self: start;
-    margin-top: 6px;
-    max-width: 270px;
-}
-.div-29 {
-    color: #fff;
-    
-    font-size: 24px;
-    font-weight: 500;
-    margin-top: 57px;
-}
-@media (max-width: 991px) {
-    .div-29 {
-    margin-top: 40px;
-    }
-}
-.div-30 {
-    color: #fff;
-    
-    font-size: 18px;
-    font-weight: 300;
-    align-self: start;
-    margin-top: 18px;
-    max-width: 270px;
-}
-.div-31 {
-    color: #fff;
-    
-    font-size: 24px;
-    font-weight: 500;
-    align-self: start;
-    margin-top: 54px;
-    max-width: 267px;
-}
-@media (max-width: 991px) {
-    .div-31 {
-    margin-top: 40px;
-    }
-}
-.div-32 {
-    color: #fff;
-    
-    font-size: 18px;
-    font-weight: 300;
-    align-self: start;
-    margin-top: 10px;
-    max-width: 270px;
-}
-.div-33 {
-    color: #fff;
-    
-    font-size: 24px;
-    font-weight: 500;
-    align-self: start;
-    margin-top: 53px;
-}
-@media (max-width: 991px) {
-    .div-33 {
-    margin-top: 40px;
-    }
-}
-.div-34 {
-    color: #fff;
-    
-    font-size: 18px;
-    font-weight: 300;
-    align-self: start;
-    margin-top: 20px;
-    max-width: 270px;
 }
 .div-35 {
     color: #fff;
@@ -371,7 +228,7 @@ body {
     text-decoration-line: underline;
     align-self: start;
 }
-.div-39 {
+.project-description {
     color: #fff;
     
     font-size: 18px;
@@ -380,7 +237,7 @@ body {
     margin-top: 15px;
 }
 @media (max-width: 991px) {
-    .div-39 {
+    .project-description {
     max-width: 100%;
     }
 }
@@ -404,19 +261,6 @@ body {
     text-decoration-line: underline;
     align-self: start;
 }
-.div-42 {
-    color: #fff;
-    
-    font-size: 18px;
-    font-weight: 300;
-    align-self: start;
-    margin-top: 18px;
-}
-@media (max-width: 991px) {
-    .div-42 {
-    max-width: 100%;
-    }
-}
 .div-43 {
     align-self: stretch;
     display: flex;
@@ -438,22 +282,8 @@ body {
     text-decoration-line: underline;
     align-self: start;
 }
-.div-45 {
-    color: #fff;
-    
-    font-size: 18px;
-    font-weight: 300;
-    align-self: start;
-    margin-top: 18px;
-}
-@media (max-width: 991px) {
-    .div-45 {
-    max-width: 100%;
-    }
-}
 .div-46 {
     color: #fff;
-    
     font-size: 26px;
     font-weight: 500;
     align-self: start;
@@ -477,18 +307,10 @@ body {
 }
 .div-48 {
     color: #fff;
-    
     font-size: 20px;
     font-weight: 400;
 }
-.div-49 {
-    color: #fff;
-    
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: 20px;
-}
-.div-50 {
+.contacts {
     color: #fff;
     font-size: 20px;
     font-weight: 400;
